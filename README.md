@@ -26,6 +26,7 @@ Welcome to the **Book Recommendation System**! This project leverages collaborat
 ├── similarity_score.pkl  # Precomputed similarity scores
 ├── README.md             # Documentation
 ├── messages.txt          # Store messages from users
+├── requirements.txt      # Python dependencies
 ```
 
 ---
@@ -54,8 +55,8 @@ $ pip install -r requirements.txt
 Ensure the following files are in the project directory:
 - `books.pkl`
 - `similarity_score.pkl`
-
-*(If these files are too large for GitHub, host them externally and provide download instructions.)*
+- `popular.pkl`
+- `pt.pkl`
 
 ### 4️⃣ Run the Flask Application
 Start the application by running:
@@ -67,9 +68,9 @@ The app will be live at `http://127.0.0.1:5000/`.
 ---
 
 ## 📖 Usage
-1. Enter a book title in the input field on the homepage.
-2. The system will recommend similar books based on your input.
-3. Explore the details of each recommended book, including the cover image.
+1. On the homepage, you'll find the top 50 books recommended based on popularity.
+2. Navigate to the 'Recommend' tab, where a search bar allows you to enter a book name.
+3. Upon entering a book name, the system will display recommended books using a collaborative filtering approach.
 
 ---
 
@@ -82,9 +83,9 @@ The app will be live at `http://127.0.0.1:5000/`.
 ---
 
 ## 🗂️ Dataset
-- **Books Dataset:** Contains information such as book titles, authors, publishers, year of publication, and cover images.
+- **Books Dataset:** Contains information such as book titles, authors, publishers, year of publication and cover images.
 - **Similarity Scores:** Precomputed matrix of cosine similarity scores for efficient recommendations.
-
+- **Popular Dataset:** Contains popular books with higher ratings.
 ---
 
 ## 🤝 Contributing
@@ -100,11 +101,14 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 ## 🌟 Acknowledgments
-Special thanks to the creators of the dataset and the open-source libraries that made this project possible.
+
+I am sincerely grateful to Nitish Singh (YouTube: [CampusX](https://learnwith.campusx.in/)) for inspiring this project.  
+Special thanks to the creators of the dataset and the developers of the open-source libraries that made this project possible.
 
 ---
 
 ### 🔗 Connect
-- GitHub: [iamtgiri](https://github.com/iamtgiri)
-
+- GitHub  : [iamtgiri](https://github.com/iamtgiri)
+- LinkedIn: [iamtgiri](https://www.linkedin.com/in/iamtgiri/)
+  
 Feel free to explore and enjoy the recommendations! 📚✨
