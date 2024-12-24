@@ -102,7 +102,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 🌟 Acknowledgments
 
-I am sincerely grateful to Nitish Singh (YouTube: [CampusX](https://learnwith.campusx.in/)) for inspiring this project.  
+I am sincerely grateful to Nitish Singh ([CampusX](https://learnwith.campusx.in/)) for inspiring this project.  
 Special thanks to the creators of the dataset and the developers of the open-source libraries that made this project possible.
 
 ---
